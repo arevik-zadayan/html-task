@@ -1,0 +1,303 @@
+@media  (max-width: 1390px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .i1{
+        /* right: 4.2% */
+    }
+}
+@media  (max-width: 1199px){
+    .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .i1 {
+        /* right: 6.2%; */
+    }
+    .home-text h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .about-c{
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about-block:nth-child(2n+2){
+        transform: translateY(0%);
+    }
+    .blog-img {
+        height: 205px;
+    }
+    .home,.about-c,.video,.service,.get-intuch,.gallery-c,.testimonial-area,.team-c,.pricing,.blog-c{
+        padding: 90px 0;
+    }
+}
+@media  (max-width: 990px){
+    .container{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .i1 {
+        /* right: 11.2%; */
+    }
+    .full-menu{
+        display: none;
+    }
+    .mini-nav{
+        display: block;
+    }
+    .menu-link{
+        display: none;
+    }
+    .home-c{
+        flex-direction: column;
+    }
+    .home-text {
+        width: 100%;
+    }
+    .home-img {
+        width: 60%;
+        order: -1;
+        margin-bottom: 50px;
+    }
+    .home-text h1{
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+    }
+    .counter-area{
+        flex-wrap: wrap;
+    }
+    .area-block{
+        width: calc((100% - 30px) / 2);
+        margin-bottom: 30px;
+    }
+    .area-block:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .service-block{
+        width: calc((100% - 30px) / 2);
+    }
+    .service-block:nth-child(2n+3){
+        margin-right: 30px;
+    }
+    .service-block:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .intuch-text{
+        width: 100%;
+    }
+    .gallery-text p,.intuch-text p,.service-text p,.video-text p,.area-text p,.team-text p,.pricing-text p,.blog-text p{
+        width: 80%;
+    }
+    .gallery-item{
+        width: calc((100% - 30px) / 2);
+    }
+    .gallery-item:nth-child(2n+3){
+        margin-right: 30px;
+    }
+    .gallery-item:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .price-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price-box{
+        width: calc((100% - 30px) / 2);
+        margin-bottom: 30px;
+    }
+    .price-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .price-box:last-child{
+        margin-bottom: 0;
+    }
+    .blog-box{
+        width: calc((100% - 30px) / 2);
+        margin-bottom: 30px;
+    }
+    .blog-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .blog-box:last-child{
+        margin-bottom: 0;
+    }
+    .blog-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .blog-img {
+        height: 228px;
+    }
+    .frst-footer-block{
+        width: calc((100% - 30px) / 2);
+        margin-bottom: 30px;
+    }
+    .frst-footer-block:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .frst-footer-block:last-child{
+        margin-bottom: 0;
+    }
+    .frst-footer{
+        flex-wrap: wrap;
+    }
+    .team-blocks{
+        width: calc((100% - 30px) / 2);
+        margin-bottom: 30px;
+    }
+    .team-blocks:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .team-blocks:last-child{
+        margin-bottom: 0;
+    }
+    .team-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery-content{
+        top: 6%;
+    }
+    .btn1, .btn2{
+        font-size: 13px;
+        padding: 13px 30px;
+        text-align: left;
+    }
+
+    .home,.about-c,.video,.service,.get-intuch,.gallery-c,.testimonial-area,.team-c,.pricing,.blog-c{
+        padding: 70px 0;
+    }
+    .blog-logo{
+        margin-top: 70px;
+    }
+    .frst-footer{
+        padding-top: 70px;
+    }
+    .sec-footer{
+        margin-top: 50px;
+    }
+}
+@media  (max-width: 760px){
+    .home-text h1{
+        font-size: 54px;
+        line-height: 64px;
+    }
+    .home-img{
+        width: 70%;
+    }
+    .frst-footer-block,.about-block,.service-block,.gallery-item,.price-box,.blog-box{
+        width: 100%;
+        margin-right: 0;
+    }
+    .gallery-item:nth-child(2n+3) {
+        margin-right: 0;
+    }
+    .clients-block {
+        width: 85%;
+    }
+    .blog-img {
+        height: 355px;
+    }
+    .blog-logo-img{
+        width: calc((100% - 60px) / 3);
+        margin-right: 0;
+    }
+    .service-block:nth-child(2n+3) {
+        margin-right: 0;
+    }
+    .blog-logo{
+        justify-content: space-between;
+    }
+}
+@media  (max-width: 560px){
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .i1 {
+        /* right: 0%; */
+    }
+    .home-img {
+        width: 90%;
+    }
+    .team-blocks{
+        width: 100%;
+        margin-right: 0;
+    }
+    .home-text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .home-text{
+        text-align: center;
+    }
+    .about-text h2,.info-title{
+        font-size: 30px;
+        line-height: 40px
+    }
+    .intuch-text p{
+        font-size: 16px;
+    }
+    .gallery-text p, .intuch-text p, .service-text p, .video-text p, .area-text p, .team-text p, .pricing-text p, .blog-text p {
+        width: 100%;
+    }
+    .btn1, .btn2{
+        font-size: 14px;
+    }
+    .clients-block {
+        width: 95%;
+    }
+    .video-box{
+        width: 85%;
+        padding: 130px 0px ;
+    }
+    .video-box::after {
+        width: 90%;
+        height: 100%;
+
+    }
+    .gradient{
+        width: 90%;
+        height: 100%;
+    }
+    .video-play-btn::before {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media  (max-width: 430px){
+    .area-block {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about-block{
+        margin-bottom: 0;
+    }
+    .gallery-item:last-child{
+        margin-bottom: 0;
+    }
+    .sec-footer{
+        margin-top: 0;
+    }
+    .home,.about-c,.video,.service,.get-intuch,.gallery-c,.testimonial-area,.team-c,.pricing,.blog-c{
+        padding: 50px 0;
+    }
+    .blog-img img{
+       object-fit: cover;
+    }
+    .blog-logo{
+        margin-top: 50px;
+    }
+    .frst-footer{
+        padding-top: 50px;
+    }
+}
